@@ -8,6 +8,7 @@ import './index.css'
 import App from './App.jsx'
 import Main from './layouts/Main.jsx';
 import Home from './pages/Home.jsx';
+import Blog from './pages/Blog.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "/blog/:id",
+        element: <Blog />
       }
     ]
   },

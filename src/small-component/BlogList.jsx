@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { blogs } from '../assets/dummy';
+import BlogCard from './BlogCard';
 
 const BlogList = () => {
     const blogCategories = ["All", "Technology", "Health", "Lifestyle", "Travel", "Food", "Education", "Finance", "Entertainment"];
@@ -15,6 +17,11 @@ const BlogList = () => {
                             </button>
                         </div>
                     ))
+                }
+            </div>
+            <div className='grid grid-cols-1 justify-items-center md:grid-cols-3 gap-3 '>
+                {
+                    blogs.filter((blog) => menu == "All" ? true : blog.category == menu).map((blog) => <BlogCard key={blog._id} blog={blog} />)
                 }
             </div>
         </div>
