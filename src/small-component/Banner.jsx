@@ -3,7 +3,7 @@ import { GiBiceps } from "react-icons/gi";
 
 const Banner = () => {
     return (
-        <div className=' h-[450px] flex flex-col items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 rounded-b-3xl md:rounded-field shadow-xl'>
+        <div className=' h-[500px] flex flex-col items-center md:gap-6 justify-center bg-gradient-to-r from-blue-100 to-purple-100 rounded-b-3xl md:rounded-b-3xl shadow-xl'>
             <div className='animate-bounce text-center w-11/12 md:w-1/4 mx-auto bg-gradient-to-r from-blue-500 to-purple-500 text-white p-2 transform duration-50 rounded-3xl md:rounded-full shadow-lg '>
                 <h1 className=' gap-2'>Latest: Experience blogging with Ai <span className='inline-block font-bold text-black text-xl'><GiBiceps /></span> </h1>
             </div>

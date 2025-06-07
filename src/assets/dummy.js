@@ -31,6 +31,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "2gfvsgrwe",
@@ -64,6 +103,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "3thwrgfvsdfs",
@@ -98,6 +176,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "4uetywrfv",
@@ -132,6 +249,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "5jebrwr",
@@ -166,6 +322,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "6thsfsgs",
@@ -200,6 +395,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "7hethbfsg",
@@ -234,6 +468,45 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "8thetreew",
@@ -315,15 +588,57 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLou",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T10:30:00Z",
+      },
+    ],
   },
   {
     _id: "11rgtrgwerfv",
     title: "The Future of AI in Web Development",
-    subTitle: "Boost clarity and creativity through writing",
+    subTitle:
+      "The web development industry is evolving fast. Static websites are becoming dynamic",
     description: `
     <h1>🚀The Future of AI in Web Development</h1>
 
     <p><b>Artificial Intelligence (AI)</b> is no longer a concept of science fiction. It’s real, it’s powerful, and it’s rapidly changing how we develop, deploy, and maintain websites and web applications. From intelligent code suggestions to smart content delivery, AI is becoming a web developer’s silent co-pilot.</p>
+    <p>আমার সোনার বাংলা</p>
+    <h1>"আমি তোমায় ভালোবাসি"</h1>
 
     <h2>🤖How AI is Enhancing Developer Productivity</h2>
     <p>One of the most significant changes AI brings to web development is in the area of <b>productivity</b>. Tools like <b>GitHub Copilot</b>, powered by OpenAI, assist developers by auto-completing code, generating functions based on comments, and even suggesting bug fixes in real-time. This not only speeds up the development process but also helps new developers learn faster through AI-suggested patterns.</p>
@@ -372,5 +687,44 @@ export const blogs = [
     __v: 0,
     isPublished: true,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
+    comments: [
+      {
+        comment:
+          "This blog was super insightful — I’m definitely coming back for more!",
+        userName: "JaneDoe99",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T14:20:00Z",
+      },
+      {
+        comment:
+          "Thanks for breaking this topic down so clearly. Really helped me understand.",
+        userName: "CodeMaster",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T13:45:00Z",
+      },
+      {
+        comment: "Could you write more on this category? Great read!",
+        userName: "TravelBug",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T12:10:00Z",
+      },
+      {
+        comment: "Not sure I agree with everything here, but it made me think.",
+        userName: "CritiqueKing",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2025-06-05T11:50:00Z",
+      },
+      {
+        comment: "Awesome article! Can you recommend more resources on this?",
+        userName: "LearningLo",
+        isApproved: true,
+        __v: 0,
+        createdAt: "2024-04-05T10:30:00Z",
+      },
+    ],
   },
 ];

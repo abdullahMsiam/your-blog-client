@@ -4,6 +4,7 @@ import BlogList from '../small-component/BlogList'
 import Subscribtion from '../small-component/Subscribtion'
 
 const Home = () => {
+
     return (
         <>
             <Banner />
