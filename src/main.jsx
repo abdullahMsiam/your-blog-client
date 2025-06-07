@@ -9,6 +9,10 @@ import App from './App.jsx'
 import Main from './layouts/Main.jsx';
 import Home from './pages/Home.jsx';
 import Blog from './pages/Blog.jsx';
+import Dashboard from './layouts/Dashboard.jsx';
+import DashboardHome from './pages/dashboard/DashboardHome.jsx';
+import AllBlogs from './pages/dashboard/AllBlogs.jsx';
+import AddBlog from './pages/dashboard/AddBlog.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +29,25 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: "dashboard",
+    element: <Dashboard />,
+    children: [
+      {
+        path: "home",
+        element: <DashboardHome />
+      },
+      {
+        path: "blogs",
+        element: <AllBlogs />
+      },
+      {
+        path: "add-blogs",
+        element: <AddBlog />
+      }
+
+    ]
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
