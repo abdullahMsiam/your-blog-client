@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import AdminNav from './AdminNav'
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaHome } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import { FaXmark } from 'react-icons/fa6'
 import { Outlet } from 'react-router-dom'
@@ -28,10 +28,11 @@ const Dashboard = () => {
                             }
                         </label>
                     </div>
-                    <div className="drawer-side mt-16 md:mt-0 w-40 ">
+                    <div className="drawer-side mt-16 md:mt-0 w-40 md:w-64 ">
                         <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                        <ul className="menu bg-gradient-to-bl from-blue-100 to-purple-50 text-base-content min-h-full w-80 ">
+                        <ul className="menu bg-gradient-to-bl from-blue-100 to-purple-50 text-base-content min-h-full w-full md:w-56  ">
                             {/* Sidebar content here */}
+                            <button className='btn btn-secondary btn-outline flex justify-evenly'> <span><FaHome /></span> <span>Home</span> </button>
                             <li><a>Sidebar Item 1</a></li>
                             <li><a>Sidebar Item 2</a></li>
                         </ul>
