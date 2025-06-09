@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
-import AdminNav from './AdminNav'
 import { FaBars, FaHome } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import { FaXmark } from 'react-icons/fa6'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 
 const Dashboard = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
     return (
         <div>
             <div className=''>
                 <Navbar />
             </div>
-            <div>
+            <div className='mx-auto'>
                 <div className="drawer lg:drawer-open ">
                     <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content flex flex-col static">
@@ -29,12 +29,18 @@ const Dashboard = () => {
                         </label>
                     </div>
                     <div className="drawer-side mt-16 md:mt-0 w-40 md:w-64 ">
-                        <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                        <ul className="menu bg-gradient-to-bl from-blue-100 to-purple-50 text-base-content min-h-full w-full md:w-56  ">
+                        <label htmlFor="my-drawer-2" aria-label="close sidebar" className=""></label>
+                        <ul className="menu bg-gradient-to-bl from-blue-50/70 to-purple-50/70 md:from-blue-100 md:to-purple-50 min-h-full w-full md:w-56 flex flex-col gap-1 ">
                             {/* Sidebar content here */}
-                            <button className='btn btn-secondary btn-outline flex justify-evenly'> <span><FaHome /></span> <span>Home</span> </button>
-                            <li><a>Sidebar Item 1</a></li>
-                            <li><a>Sidebar Item 2</a></li>
+                            {/* btn */}
+                            <Link className={`btn btn-sm rounded-sm flex flex-row-reverse justify-evenly ${location.pathname === "/dashboard/home" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/home"}> <span><FaHome /></span> <span>Home</span> </Link>
+                            {/* btn */}
+                            <Link className={`btn btn-sm rounded-sm flex flex-row-reverse justify-evenly ${location.pathname === "/dashboard/home" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/home"}> <span><FaHome /></span> <span>Home</span> </Link>
+                            {/* btn */}
+                            <Link className={`btn btn-sm rounded-sm flex flex-row-reverse justify-evenly ${location.pathname === "/dashboard/home" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/home"}> <span><FaHome /></span> <span>Home</span> </Link>
+                            {/* btn */}
+                            <Link className={`btn btn-sm rounded-sm flex flex-row-reverse justify-evenly ${location.pathname === "/dashboard/home" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/home"}> <span><FaHome /></span> <span>Home</span> </Link>
+
                         </ul>
                     </div>
                 </div>
