@@ -13,6 +13,7 @@ import Dashboard from './layouts/Dashboard.jsx';
 import DashboardHome from './pages/dashboard/DashboardHome.jsx';
 import AllBlogs from './pages/dashboard/AllBlogs.jsx';
 import AddBlog from './pages/dashboard/AddBlog.jsx';
+import Login from './pages/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,9 +27,14 @@ const router = createBrowserRouter([
       {
         path: "/blog/:id",
         element: <Blog />
-      }
+      },
+      {
+        path: "/login",
+        element: <Login />
+      },
     ]
   },
+
   {
     path: "dashboard",
     element: <Dashboard />,
