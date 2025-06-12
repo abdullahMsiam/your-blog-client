@@ -62,13 +62,6 @@ export const blogs = [
         __v: 0,
         createdAt: "2025-06-05T11:50:00Z",
       },
-      {
-        comment: "Awesome article! Can you recommend more resources on this?",
-        userName: "LearningLou",
-        isApproved: true,
-        __v: 0,
-        createdAt: "2025-06-05T10:30:00Z",
-      },
     ],
   },
   {
