@@ -1,5 +1,6 @@
 import React from 'react'
 import { blogs } from '../../assets/dummy'
+import BlogTableDt from '../../small-component/BlogTableDt';
 
 const DashboardHome = () => {
 
@@ -35,8 +36,8 @@ const DashboardHome = () => {
                 <h1 className='text-3xl font-bold '>Recent Blogs</h1>
                 <div className='max-w-5xl mt-2'>
                     <table className='text-xs uppercase w-full overflow-auto bg-purple-100 rounded-2xl'>
-                        <thead>
-                            <tr>
+                        <thead  >
+                            <tr >
                                 <th className='px-2 py-4'>#</th>
                                 <th className='px-2 py-4'>Blog Title</th>
                                 <th className='px-2 py-4'>Date</th>
@@ -44,6 +45,13 @@ const DashboardHome = () => {
                                 <th className='px-2 py-4'>Action</th>
                             </tr>
                         </thead>
+                        <tbody >
+                            {
+                                blogs.slice(0, 5).map((blog, index) => (
+                                    <BlogTableDt key={blog._id} blog={blog} index={index + 1} />
+                                ))
+                            }
+                        </tbody>
                     </table>
                 </div>
             </div>

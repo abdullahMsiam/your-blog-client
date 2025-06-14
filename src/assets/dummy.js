@@ -94,7 +94,7 @@ export const blogs = [
     createdAt: "2025-05-15T14:00:00Z",
     updatedAt: "2025-05-15T14:00:00Z",
     __v: 0,
-    isPublished: true,
+    isPublished: false,
     imageUrl: "https://i.ibb.co/hRqNgdm/blog.jpg",
     comments: [
       {
