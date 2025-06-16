@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaHome, FaPlusSquare } from 'react-icons/fa'
+import { FaBars, FaComments, FaHome, FaPlusSquare } from 'react-icons/fa'
 import Navbar from '../components/Navbar'
 import { FaChartSimple, FaXmark } from 'react-icons/fa6'
 import { Link, Outlet, useLocation } from 'react-router-dom'
@@ -41,6 +41,8 @@ const Dashboard = () => {
                             <Link className={`btn btn-sm rounded-sm flex justify-start gap-4 ${location.pathname === "/dashboard/blogs" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/blogs"}> <span> <BsHddStackFill /> </span> <span>All Blogs</span> </Link>
                             {/* btn */}
                             <Link className={`btn btn-sm rounded-sm flex justify-start gap-4 ${location.pathname === "/dashboard/add-blogs" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/add-blogs"}> <span><FaPlusSquare /></span> <span>Add Blog</span> </Link>
+                            {/* btn */}
+                            <Link className={`btn btn-sm rounded-sm flex justify-start gap-4 ${location.pathname === "/dashboard/all-comments" ? "btn btn-active btn-secondary" : "btn-secondary btn-outline"}`} to={"/dashboard/all-comments"}> <span><FaComments /> </span> <span>All Comments</span> </Link>
 
 
                         </ul>
