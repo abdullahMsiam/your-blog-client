@@ -15,6 +15,7 @@ const AllComment = () => {
                             <div className='flex justify-end-safe gap-4'>
                                 <button className='btn btn-outline btn-success btn-xs'>Approve</button>
                                 <button className='btn btn-outline btn-error btn-xs'><MdDelete /></button>
+                                <button className='btn btn-outline btn-error btn-xs'><MdDelete /></button>
                             </div>
                         </div>
                     ))
