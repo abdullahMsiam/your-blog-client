@@ -1,5 +1,6 @@
 import React from 'react'
-import { blogs } from '../../assets/dummy'
+import { blogs } from '../../assets/dummy';
+import moment from 'moment'
 import { MdDelete } from 'react-icons/md';
 
 const AllComment = () => {
@@ -10,11 +11,14 @@ const AllComment = () => {
             <div>
                 {
                     allComment.map((comment, index) => (
-                        <div key={index} className='max-w-2xl border bg-blue-100 rounded-lg px-3 py-1 my-1 mx-auto '>
-                            <p>{comment?.comment}</p>
-                            <div className='flex justify-end-safe gap-4'>
-                                <button className='btn btn-outline btn-success btn-xs'>Approve</button>
-                                <button className='btn btn-outline btn-error btn-xs'><MdDelete /></button>
+                        <div key={index} className='max-w-2xl border bg-blue-50 rounded-lg px-3 py-1 my-1 mx-auto '>
+                            <div className='flex justify-between'>
+                                <p className='font-semibold'>{comment?.userName}</p>
+                                <p>{moment(comment?.createdAt).startOf('day').fromNow()}</p>
+                            </div>
+                            <p>"{comment?.comment}"</p>
+                            <div className='flex justify-end gap-4'>
+                                <button className='btn btn-outline hover:bg-green-900 bg-green-300 hover:text-white btn-xs'>Approve</button>
                                 <button className='btn btn-outline btn-error btn-xs'><MdDelete /></button>
                             </div>
                         </div>
