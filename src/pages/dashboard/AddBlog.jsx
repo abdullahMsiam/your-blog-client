@@ -31,10 +31,10 @@ const AddBlog = () => {
         console.log(formData);
     };
     return (
-        <div >
-            <h1>Add Blogs</h1>
-            <div>
-                <form onSubmit={handleSubmit} className="space-y-4">
+        <div className='pb-10' >
+            <h1 className='text-3xl font-bold text-center mt-6'>Add Blogs</h1>
+            <div className='w-11/12 md:max-w-3xl mx-auto bg-blue-50 p-3 px-4 rounded-2xl'>
+                <form onSubmit={handleSubmit} className="space-y-4  mx-auto">
                     <div>
                         <label className="block mb-1 font-semibold">Title</label>
                         <input
@@ -60,18 +60,19 @@ const AddBlog = () => {
                     </div>
                     <div>
                         <label className="block mb-1 font-semibold">Description</label>
-                        <textarea
-                            name="description"
-                            value={formData.description}
-                            onChange={handleChange}
-                            className="w-full border p-2 rounded"
-                            placeholder="Enter description"
-                            rows={5}
-                        ></textarea>
-                        <div className="mt-2">
-                            <Button type="button" onClick={generateWithAI}>
-                                Generate with AI
-                            </Button>
+                        <div className='border rounded p-2'>
+                            <textarea
+                                name="description"
+                                value={formData.description}
+                                onChange={handleChange}
+                                className="w-full outline-0 px-2 h-64"
+                                placeholder="Enter description"
+                            ></textarea>
+                            <div className="mt-2 text-end">
+                                <button className='my-btn text-white px-3 rounded text-sm cursor-pointer hover:scale-105' onClick={generateWithAI}>
+                                    Generate with AI
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -98,7 +99,7 @@ const AddBlog = () => {
                                     name="isPublished"
                                     value={true}
                                     checked={formData.isPublished === 'true' || formData.isPublished === true}
-                                    onChange={(e) => setFormData({ ...formData, isPublished: true })}
+                                    onChange={() => setFormData({ ...formData, isPublished: true })}
                                 />
                                 Yes
                             </label>
@@ -108,14 +109,14 @@ const AddBlog = () => {
                                     name="isPublished"
                                     value={false}
                                     checked={formData.isPublished === 'false' || formData.isPublished === false}
-                                    onChange={(e) => setFormData({ ...formData, isPublished: false })}
+                                    onChange={() => setFormData({ ...formData, isPublished: false })}
                                 />
                                 No
                             </label>
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <Button type="submit">Done</Button>
+                        <button className='btn btn-block btn-sm  btn-info' type="submit">Done</button>
                     </div>
                 </form>
 

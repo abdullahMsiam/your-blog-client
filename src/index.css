@@ -26,3 +26,20 @@
 .blog-content img {
   @apply rounded-xl shadow-md mx-auto my-6;
 }
+
+@layer utilities {
+  @keyframes backgroundMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+}
+
+.my-btn {
+  background: linear-gradient(45deg, black, gray, #034b5f, #7b0e3a);
+  background-size: 400% 400%;
+  animation: backgroundMove 5s ease infinite;
+}
