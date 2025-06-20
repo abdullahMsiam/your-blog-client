@@ -9,9 +9,11 @@ const Navbar = () => {
                 <div className="flex-1">
                     <Link to={"/"}><h1 className='font-bold text-3xl cursor-pointer pl-12'>YourBlog</h1></Link>
                 </div>
-                <div className="flex-none">
-                    <button className="btn btn-info rounded-full">Login --
-                    </button>
+                <div className="flex gap-2">
+                    <Link to={"/dashboard/home"}><button className="btn btn-info rounded-full">Login --
+                    </button></Link>
+                    <Link to={"/dashboard/home"}><button className="btn rounded-full btn-error">Logout
+                    </button></Link>
                 </div>
             </div>
         </div>
